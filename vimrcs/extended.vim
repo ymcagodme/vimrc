@@ -35,6 +35,9 @@ set guioptions-=L
 if has("gui_running")
     set background=dark
     colorscheme peaksea
+elseif $TERM == 'xterm-256color'
+    set background=dark
+    colorscheme peaksea
 else
     colorscheme desert
     let g:colors_name="desert"
