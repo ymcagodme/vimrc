@@ -7,3 +7,5 @@ nmap <leader>/ :nohl<CR>
 
 " ,p toggles paste mode
 nmap <leader>p :set paste!<BAR>set paste?<CR>
+
+set number

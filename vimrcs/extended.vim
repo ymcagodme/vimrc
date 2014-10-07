@@ -34,13 +34,12 @@ set guioptions-=L
 " Colorscheme
 if has("gui_running")
     set background=dark
-    colorscheme peaksea
+    colorscheme smyck
 elseif $TERM == 'xterm-256color'
-    set background=dark
-    colorscheme peaksea
+    colorscheme smyck
 else
-    colorscheme desert
-    let g:colors_name="desert"
+    colorscheme vgod
+    let g:colors_name="vgod"
 endif
 
 
