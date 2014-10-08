@@ -36,6 +36,7 @@ if has("win16") || has("win32")
     " Don't do anything
 else
     let g:yankring_history_dir = '~/.vim_runtime/temp_dirs/'
+    let g:yankring_replace_n_nkey = '<m-n>'
 endif
 
 
@@ -84,7 +85,7 @@ map <leader>nf :NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:multi_cursor_next_key="\<C-s>"
+" let g:multi_cursor_next_key="\<C-s>"
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
