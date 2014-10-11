@@ -9,3 +9,6 @@ nmap <leader>/ :nohl<CR>
 nmap <leader>p :set paste!<BAR>set paste?<CR>
 
 set number
+
+" For jedi-vim, no docstring window to popup
+autocmd FileType python setlocal completeopt-=preview
