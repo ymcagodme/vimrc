@@ -12,4 +12,4 @@ set number
 
 " For jedi-vim, no docstring window to popup
 autocmd FileType python setlocal completeopt-=preview
-set mouse=a
+set mouse=na
